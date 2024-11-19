@@ -1,0 +1,20 @@
+.icon-user::before, .icon-asset::before, .icon-risk::before {
+    content: "\f007"; /* kode ikon FontAwesome atau ikon lain sesuai navbar */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #333;
+}
+
+.progress-bar {
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.progress-bar.bg-primary { background-color: #007bff; } /* Admin */
+.progress-bar.bg-secondary { background-color: #6c757d; } /* User */
+.progress-bar[data-category="data"] { background-color: #ff6384; }
+.progress-bar[data-category="software"] { background-color: #36a2eb; }
+.progress-bar[data-category="hardware"] { background-color: #ffce56; }
+.progress-bar[data-category="network"] { background-color: #4bc0c0; }
+.progress-bar[data-category="sumber_daya_manusia"] { background-color: #9966ff; }
